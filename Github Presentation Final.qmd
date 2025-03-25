@@ -1,0 +1,113 @@
+---
+title: "Streaming As A Service"
+author: "Andrew Mao"
+class: "IBM 6400, Cal Poly Pomona"
+date: "March 24, 2025"
+format: 
+  revealjs:
+    theme: serif
+    width: 1600
+    height: 900
+    footer: Streaming As A Service
+    transition: slide
+    transition-speed: default
+    incremental: false
+    toc: true
+    toc-depth: 1
+    slide-number: true
+    scrollable: true
+    smaller: true
+    code-fold: false
+    code-overflow: wrap
+    number-sections: false
+    number-depth: 5
+    embed-resources: true
+    css: styles.css
+editor: visual
+execute: 
+  echo: true
+  freeze: auto
+---
+
+## INTRODUCTION
+
+Streaming services have transformed the way people watch their favorite shows, movies, and sports by moving to a Subscription Video on Demand (SVOD) model. **Bundling** subscriptions has gained prominence due to **convenience** and **perceived value**, yet **pricing** these bundles is challenging because consumer **willingness to pay** varies significantly across demographics and preferences.
+
+This project explores methodologies for **optimal bundle pricing**, aiming to:
+
+-   Enhance understanding of consumer behavior
+
+-   Inform effective pricing decisions
+
+-   Refine methods for assessing willingness to pay (WTP)\
+
+    ---
+
+# PROBLEM STATEMENT
+
+Frequent and sometimes high price increases at established services (e.g., Netflix) have sparked user backlash, while competitor platforms (Disney+, Hulu, Amazon Prime Video) expand content libraries or bundle multiple offerings under a single rate. Meanwhile, ad-supported tiers introduce additional complexity when setting optimal prices.
+
+**Key Managerial Problem**
+
+> Streaming services must balance **competitive pricing** and **profitability** while meeting diverse consumer expectations regarding content, ads, and budget constraints.
+
+# ANALYTICS OBJECTIVES
+
+We specifically seek to:
+
+1.  **Compare** Van Westendorp’s Price Sensitivity Meter, the Gabor-Granger Method, and Conjoint Analysis to assess willingness to pay (WTP) for streaming bundles.
+
+2.  **Identify** consumer price thresholds, feature trade-offs, and optimal pricing strategies.
+
+3.  **Develop** a **unified pricing framework** that synthesizes multiple methods for robust decision-making.
+
+# KEY METHODS
+
+1.  1\. Van Westendorp’s Price Sensitivity Meter (PSM)
+
+    -   Analyzes acceptable price ranges and psychological price points.
+
+    -   Identifies the **optimal pricing window** that balances perceived affordability and quality.
+
+    ## 2. Conjoint Analysis
+
+    -   Evaluates **price sensitivity** in the context of multiple attributes (e.g., ad levels, content variety).
+
+    -   Identifies **feature trade-offs** and segments customers based on their preferences.
+
+    ## 3. Gabor-Granger Method
+
+    -   Tests consumer purchase likelihood at **various price points** (e.g., \$7.99, \$9.99, \$12.99).
+
+    -   Helps determine **price elasticity** and potential **revenue-maximizing** points.
+
+    ## 4. Integrative Synthesis
+
+    -   Compares and contrasts insights from all three methods to **spot discrepancies** in stated willingness to pay vs. actual price thresholds.
+
+    -   Aims to **bridge gaps** between theoretical price sensitivity and real-world pricing decisions.
+
+# EXAMPLE CHART
+
+Below is a simple demonstration of how you might illustrate demand curves.
+
+```         
+
+```{r}
+#| label: sample-demand
+#| echo: true
+
+# A sample plot (dummy data)
+price_points <- c(7.99, 9.99, 12.99, 14.99, 17.99)
+demand_pct   <- c(80, 68, 52, 35, 20)
+
+plot(
+  price_points, demand_pct,
+  type = "b", 
+  main = "Illustrative Demand Curve",
+  xlab = "Price (USD/month)", 
+  ylab = "Subscription Likelihood (%)"
+)
+```
+
+## Questions?
