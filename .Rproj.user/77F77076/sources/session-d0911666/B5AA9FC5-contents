@@ -1,0 +1,18 @@
+---
+title: "Projects"
+format: html
+---
+
+# Featured Quarto Projects
+
+[Netflix Pricing Strategy](https://abmao1.quarto.pub/streaming-as-a-service)
+Built an interactive Quarto presentation analyzing consumer price sensitivity in the streaming industry. Applied Van Westendorp and Gabor-Granger techniques to assess willingness to pay and strategic bundling across major platforms.
+
+[Titanic Survival Analysis](https://abmao1.quarto.pub/abmao2githubio)
+Used Quarto and the {gtsummary} package to explore survival trends on the Titanic. Presented logistic regression and cross-tab analysis to highlight how passenger demographics influenced outcomes.
+
+[Brand Strategy Term Proposal](https://abmao1.quarto.pub/andrew-mao-term-project-proposal)
+Outlined a strategic marketing plan for a South Korean foodservice brand entering the U.S. Created a Quarto proposal detailing campaign strategy, digital media planning, and Gen Z engagement tactics.
+
+[Summary Tables with gtsummaryl](https://abmao1.quarto.pub/reflection-on-m10/)
+Created a Quarto presentation reflecting on the use of {gtsummary} for summarizing and visualizing statistical models. Demonstrated its role in improving data communication within marketing research.

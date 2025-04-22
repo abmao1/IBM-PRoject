@@ -1,0 +1,26 @@
+{
+  "index.qmd": {
+    "index.html": "b51fc6e0"
+  },
+  "about.qmd": {
+    "about.html": "1fc16e6b"
+  },
+  "resume.qmd": {
+    "resume.html": "3625cc66"
+  },
+  "projects.qmd": {
+    "projects.html": "60fe9010"
+  },
+  "dashboard.qmd": {
+    "dashboard.html": "2de1b8b6"
+  },
+  "shinyapps.qmd": {
+    "shinyapps.html": "de685309"
+  },
+  "shinylive.qmd": {
+    "shinylive.html": "cad32992"
+  },
+  "contact.qmd": {
+    "contact.html": "34517396"
+  }
+}

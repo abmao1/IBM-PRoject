@@ -1,0 +1,32 @@
+{
+    "id": "99A03F64",
+    "path": "~/IBM Project/Website for Employer/dashboard.qmd",
+    "project_path": "dashboard.qmd",
+    "type": "quarto_markdown",
+    "hash": "2790917823",
+    "contents": "",
+    "dirty": true,
+    "created": 1745304222979.0,
+    "source_on_save": false,
+    "relative_order": 7,
+    "properties": {
+        "rmdVisualMode": "true",
+        "rmdVisualWrapConfigured": "true",
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "cursorPosition": "4,0",
+        "scrollLine": "0",
+        "rmdVisualModeLocation": "107:0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1745304289,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1745304322561,
+    "read_only": false,
+    "read_only_alternatives": []
+}

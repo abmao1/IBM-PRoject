@@ -1,0 +1,17 @@
+{
+  "hash": "aebec28e56ee945085603eb38d6702f4",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"dashboard\"\n---\n\n\n\n\n# Dashboard\n\nThis dashboard explores trends in Streaming Services.\n\n## Chart Example\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(ggplot2) \nggplot(mtcars, aes(x = wt, y = mpg)) + geom_point() + labs(title = \"MPG vs Weight\", x = \"Weight\", y = \"MPG\")\n```\n\n::: {.cell-output-display}\n![](dashboard_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "dashboard_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
