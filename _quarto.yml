@@ -1,0 +1,43 @@
+project:
+  type: website
+
+website:
+  title: "Andrew Mao"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Projects"
+        menu:
+          - text: "Main Projects"
+            href: projects.qmd
+          - text: "Shiny Apps"
+            href: shinyapps.qmd
+          - text: "Shiny Live"
+            href: shinylive.qmd
+          - text: "Dashboard"
+            href: dashboard.qmd
+      - text: "About"
+        menu:
+          - text: "Resume"
+            href: resume.qmd
+          - text: "About Me"
+            href: about.qmd
+      - text: "Contact"
+        href: contact.qmd
+
+  page-footer:
+    left: "© 2025 Andrew Mao"
+    right:
+      - icon: github
+        href: "https://github.com/abmao1"
+      - icon: linkedin
+        href: "https://linkedin.com/in/amao"
+      - text: "Built with Quarto"
+        href: "https://quarto.org"
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true

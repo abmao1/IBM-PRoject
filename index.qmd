@@ -1,0 +1,22 @@
+---
+title: "Andrew Mao"
+format: html
+---
+
+![ That's me!](images/1519850592252.jpeg){fig-align="center"}
+
+# 
+
+# 👋 Hi, I'm Andrew Mao
+
+I'm a digital marketing strategist focused on data, content, and storytelling. I've led social strategy across global brands and built campaigns that connect culture and community.
+
+Explore my featured projects and resume below.
+
+------------------------------------------------------------------------
+
+## 📂 Quick Links
+
+-   🔗 [Featured Projects](projects.qmd)
+-   📄 [View Resume](resume.qmd)
+-   💼 [Contact Me](contact.qmd)

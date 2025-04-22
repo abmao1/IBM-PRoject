@@ -1,0 +1,14 @@
+---
+title: "dashboard"
+---
+
+# Dashboard
+
+This dashboard explores trends in Streaming Services.
+
+## Chart Example
+
+```{r}
+library(ggplot2) 
+ggplot(mtcars, aes(x = wt, y = mpg)) + geom_point() + labs(title = "MPG vs Weight", x = "Weight", y = "MPG")
+```
