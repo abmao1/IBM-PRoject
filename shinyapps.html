@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About Me – Andrew Mao</title>
+<title>shinyapps – Andrew Mao</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -145,15 +145,28 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#essay-on-shiny-apps" id="toc-essay-on-shiny-apps" class="nav-link active" data-scroll-target="#essay-on-shiny-apps">Essay on Shiny Apps</a>
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#what-is-shiny" id="toc-what-is-shiny" class="nav-link" data-scroll-target="#what-is-shiny">What is Shiny?</a></li>
+  <li><a href="#teaching-example" id="toc-teaching-example" class="nav-link" data-scroll-target="#teaching-example">Teaching Example</a></li>
+  <li><a href="#use-cases-and-applications" id="toc-use-cases-and-applications" class="nav-link" data-scroll-target="#use-cases-and-applications">Use Cases and Applications</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About Me</h1>
+<h1 class="title">shinyapps</h1>
 </div>
 
 
@@ -170,10 +183,35 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Hi, I’m Andrew!</p>
-<p>I’m passionate about integrating creativity within marketing campaigns that drive business! My experience includes creating eye catching social media content, interpreting customer engagement and market trends to develop relevant content integration across various social channels. I’ve worked with top brands such as Monster Energy, Hyatt Hotels, Niagara Bottling, McDonalds, and Moet Henessey!</p>
+<section id="essay-on-shiny-apps" class="level1">
+<h1>Essay on Shiny Apps</h1>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Shiny is a powerful web application framework for R that enables users to build interactive tools directly from their data analyses. Unlike traditional static reports, Shiny apps allow users to manipulate inputs and immediately see changes reflected in outputs, making them particularly valuable for data exploration, dashboards, and decision-support tools. In this essay, I will introduce the core concepts behind Shiny, explain how it works, and offer practical use cases to demonstrate its potential.</p>
+</section>
+<section id="what-is-shiny" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-shiny">What is Shiny?</h2>
+<p>Shiny, developed by RStudio (now Posit), is an R package that makes it easy to build web applications using only R code—no JavaScript or HTML required. It bridges the gap between statistical analysis and user interaction, making it possible to present complex data in a dynamic, user-friendly format.</p>
+<p>At its core, a Shiny app consists of two parts: - <strong>UI (User Interface)</strong>: Defines the layout of the app, including inputs (like sliders and dropdowns) and outputs (like tables or plots). - <strong>Server</strong>: Contains the R code that reacts to user inputs and generates the corresponding output.</p>
+<p>These two components work together using Shiny’s <strong>reactive programming</strong> model, which tracks changes in inputs and automatically re-runs the necessary code to update outputs.</p>
+</section>
+<section id="teaching-example" class="level2">
+<h2 class="anchored" data-anchor-id="teaching-example">Teaching Example</h2>
+<p>Imagine we are working with sales data across multiple regions and years. Using Shiny, we could create an app that allows a marketing manager to: - Select a specific region from a dropdown menu. - Filter by year using a slider. - View real-time updates to a bar chart and summary table of sales performance.</p>
+<p>This kind of app makes data exploration far more accessible for non-technical team members, encouraging data-driven decision-making without needing to write code.</p>
+</section>
+<section id="use-cases-and-applications" class="level2">
+<h2 class="anchored" data-anchor-id="use-cases-and-applications">Use Cases and Applications</h2>
+<p>Shiny is widely used in industries ranging from healthcare to finance. Some common applications include: - Interactive dashboards for monitoring KPIs. - Simulation tools for scenario testing. - Data entry forms and internal tools for analysts.</p>
+<p>Its integration with the tidyverse and support for packages like <code>plotly</code>, <code>DT</code>, and <code>ggplot2</code> allows for a seamless and customizable experience.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>In summary, Shiny represents a major advancement in how data can be shared, understood, and acted upon. It empowers R users to build tools that are not only functional but also engaging and user-centric. Whether you’re presenting research findings or building a decision support system, Shiny can turn a static analysis into an interactive experience that delivers real value.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
